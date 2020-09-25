@@ -49,7 +49,7 @@ function setup() {
 	 c3= Bodies.rectangle(800,700,100,20,{isStatic:true,restitution:1});
 	 World.add(world, c3);
 	//Create a Ground
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true,restitution:1} );
+	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
 
