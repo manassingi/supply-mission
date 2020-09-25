@@ -44,7 +44,7 @@ function setup() {
 	
 	 c1 = Bodies.rectangle(800,700,100,20,{isStatic:true,restitution:1});
 	 World.add(world, c1);
-	 c2 = Bodies.rectangle(800,700,100,20,{isStatic:true});
+	 c2 = Bodies.rectangle(800,700,100,20,{isStatic:true,restitution:1});
 	 World.add(world, c2);
 	 c3= Bodies.rectangle(800,700,100,20,{isStatic:true,restitution:1});
 	 World.add(world, c3);
