@@ -77,7 +77,7 @@ function keyPressed() {
     // Look at the hints in the document and understand how to make the package body fall only on
 	//packageSprite.x= packageBody.position.x 
 	//packageSprite.velocityY=+10;
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.7,isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.7});
 	World.add(world, packageBody);
 	
   }
